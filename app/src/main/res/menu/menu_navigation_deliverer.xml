@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/topmenu" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search_announcement"
+            android:title="@string/text_search_announcement" />
+        <item
+            android:id="@+id/nav_shipment_requests"
+            android:title="@string/text_shipment_requests" />
+        <item
+            android:id="@+id/nav_start_shipment"
+            android:title="@string/text_start_shipment" />
+        <item
+            android:id="@+id/nav_active_shipments"
+            android:title="@string/text_deliverer_active_shipments" />
+        <item
+            android:id="@+id/nav_end_shipment"
+            android:title="@string/text_end_shipment" />
+        <item
+            android:id="@+id/nav_closed_shipments"
+            android:title="@string/text_closed_shipments" />
+    </group>
+    <group android:id="@+id/middlemenu" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_subscribe_announcements"
+            android:title="@string/text_subscribe_announcements"/>
+        <item
+            android:id="@+id/nav_subscribtions"
+            android:title="@string/text_subscriptions"/>
+    </group>
+
+    <group android:id="@+id/bottommenu" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_switch_to_sender"
+            android:title="@string/text_switch_to_sender" />
+
+        <item
+            android:id="@+id/nav_account_administration"
+            android:title="@string/text_account_administration" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/text_logout" />
+    </group>
+</menu>

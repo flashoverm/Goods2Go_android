@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/topmenu" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_announce_shipment"
+            android:title="@string/text_announce_shipment" />
+        <item
+            android:id="@+id/nav_open_announcements"
+            android:title="@string/text_open_announcements" />
+        <item
+            android:id="@+id/nav_active_shipments"
+            android:title="@string/text_active_shipments" />
+        <item
+            android:id="@+id/nav_closed_shipments"
+            android:title="@string/text_closed_shipments" />
+    </group>
+    <group android:id="@+id/bottommenu" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_switch_to_deliverer"
+            android:title="@string/text_switch_to_deliverer"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_become_deliverer"
+            android:title="@string/text_become_deliverer" />
+        <item
+            android:id="@+id/nav_account_administration"
+            android:title="@string/text_account_administration" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/text_logout" />
+    </group>
+</menu>

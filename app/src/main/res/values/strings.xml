@@ -1,0 +1,277 @@
+<resources>
+    <string name="text_goods2go">Goods2Go</string>
+
+    <!-- String multible use -->
+
+    <string name="text_email">E-Mail</string>
+    <string name="text_password">Passwort</string>
+    <string name="text_save">Speichern</string>
+    <string name="text_sign_up">Registrieren</string>
+    <string name="text_account_administration">Accountverwaltung</string>
+    <!--<string name="text_o_clock">Uhr</string>-->
+    <string name="text_o_clock"></string>
+    <string name="text_display_name">Anzeigename</string>
+    <string name="text_displayname_opt">Anzeigename (Optional)</string>
+
+    <string name="error_unknown">Unbekannter Fehler</string>
+    <string name="error_fragment">Fehler beim Öffnen des Fragments</string>
+
+    <string name="error_field_required">Dieses Feld muss ausgefüllt werden</string>
+    <string name="error_size_not_existing">Größe nicht verfügbar</string>
+    <string name="info_no_list_entry">Keine Einträge vorhanden</string>
+    <string name="error_getting_data">Daten konnten nicht geladen werden</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="text_accept">Annehmen</string>
+    <string name="text_revoke">Zurückziehen</string>
+
+    <string name="text_currency">€</string>
+
+    <string name="text_type">Typ:</string>
+    <string name="text_until">Bis</string>
+
+    <string name="text_shipment_details">Sendungsdetails</string>
+    <string name="text_detail">Details zur Sendung...</string>
+    <string name="text_detail_request">Details / Anfragen</string>
+    <string name="text_description">Beschreibung</string>
+    <string name="text_rating">Bewertung</string>
+    <string name="text_delivery_location">Lieferort</string>
+    <string name="text_show_qr">QR-Code anzeigen</string>
+    <string name="text_hide_qr">QR-Code verbergen</string>
+    <string name="text_payment">Bezahlung</string>
+    <string name="text_payment_type">Zahlungsart</string>
+    <string name="text_note_payment">Bewertung erst nach geleisteter Zahlung vornehmen</string>
+
+    <string name="text_senders_rating">Bewertung des Senders</string>
+    <string name="text_deliverers_rating">Bewertung des Boten</string>
+
+    <string name="error_deliver_before_pickup">Lieferdatum darf nicht vor Abholdatum sein!</string>
+    <string name="error_pickupfrom_before_until">Spätestes Abholdatum darf nicht vor frühestem sein!</string>
+
+    <!-- Strings location error -->
+
+    <string name="error_location_permission">Zugriff auf Standort verweigert</string>
+    <string name="error_gps_deactivated">GPS Dienst deaktiviert</string>
+    <string name="error_network_deactivated">Netwerkdienst deaktiviert</string>
+    <string name="error_location">Standort kann nicht ermittelt werden</string>
+    <string name="error_location_deactivated">Standortdienst deaktiviert</string>
+
+    <!-- Strings network error -->
+
+    <string name="error_network">Unbekannter Netzwerkfehler</string>
+    <string name="error_internal_server">Serverfehler</string>
+    <string name="error_network_timeout">Netzwerk-Zeitüberschreitung</string>
+    <string name="error_forbidden">Zugriff nicht gestattet</string>
+    <string name="error_email_existing">E-Mail-Adresse bereits registriert</string>
+    <string name="error_session_expired">Sitzung abgelaufen</string>
+    <string name="error_not_found">Objekt exisitiert nicht (mehr)</string>
+
+    <!-- Strings login -->
+
+    <string name="text_sign_in">Anmelden</string>
+    <string name="text_logout">Abmelden</string>
+    <string name="text_logout_confirm">Wirklich abmelden?</string>
+
+    <string name="error_invalid_email">E-Mail-Adresse ungültig</string>
+    <string name="error_incorrect_password">Passwort ungültig</string>
+
+    <!-- Strings role choose -->
+
+    <string name="text_sender">Sender</string>
+    <string name="text_deliverer">Bote</string>
+    <string name="text_deliverer_dd">Bote:</string>
+    <string name="text_you_are">Du bist?</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Strings account administration -->
+
+    <string name="text_old_password">Altes Passwort</string>
+    <string name="text_new_password">Neues Passwort</string>
+    <string name="text_proof_password">Passwort bestätigen</string>
+    <string name="text_userdata">Benutzerdaten</string>
+    <string name="text_default_address">Standardadresse</string>
+    <string name="text_payment_information">Zahlungsinformationen</string>
+
+    <string name="text_paypal_address">Paypal Adresse</string>
+    <string name="text_account_owner">Kontoinhaber</string>
+    <string name="text_iban">IBAN</string>
+
+    <string name="info_update_ok">Aktualisierung erfolgreich</string>
+    <string name="error_update">Aktualisierung fehlgeschlagen</string>
+    <string name="error_incorrect_proof">Passwörter stimmen nicht überein</string>
+
+    <!-- Strings address dialog -->
+
+    <string name="text_firstname">Vorname</string>
+    <string name="text_lastname">Nachname</string>
+    <string name="text_street">Straße</string>
+    <string name="text_streetnumber">Nr.</string>
+    <string name="text_postcode">PLZ</string>
+    <string name="text_city">Stadt</string>
+    <string name="text_country">Land</string>
+
+    <!-- Strings registration -->
+
+    <string name="info_registration_sent">Registrierung abgeschlossen</string>
+    <string name="error_registration">Registrierung fehlgeschlagen</string>
+
+    <!-- Strings become deliverer -->
+
+    <string name="text_identification">Identifikationsnummer</string>
+    <string name="text_become_deliverer">Bote werden</string>
+
+    <!-- Strings sender navigation -->
+
+    <string name="text_announce_shipment">Sendung inserieren</string>
+    <string name="text_open_announcements">Offene Inserate</string>
+    <string name="text_active_shipments">Sendungen in Ausführung</string>
+    <string name="text_closed_shipments">Beendete Sendungen</string>
+
+    <string name="text_switch_to_deliverer">Wechseln zu Bote</string>
+
+    <!-- String sender -->
+
+    <string name="text_destination_address">Zieladresse</string>
+    <string name="text_recipient">Empfänger</string>
+    <string name="text_size">Größe</string>
+    <string name="text_deliver_until">Abliefern bis</string>
+    <string name="text_deliver_until_dd">Abliefern bis:</string>
+
+    <string name="text_source_address">Abholadresse</string>
+    <string name="text_pickup_from">Abholen ab</string>
+    <string name="text_pickup_from_dd">Abholen ab:</string>
+    <string name="text_pickup_until">Abholen bis</string>
+    <string name="text_price">Preis (€)</string>
+    <string name="text_publish_announcement">Sendung inserieren</string>
+
+    <string name="text_pickup_dd">Abholung:</string>
+    <string name="text_pickup">Abholung</string>
+    <string name="text_delivery_dd">Lieferung:</string>
+    <string name="text_delivery">Ablieferung</string>
+
+    <string name="text_address_history">Empfänger-Verlauf</string>
+
+    <string name="info_announcement_published">Sendung inseriert</string>
+    <string name="info_request_accepted">Anfrage angenommen</string>
+    <string name="info_announcement_revoked">Insert zurückgezogen</string>
+    <string name="error_announcement_publish">Sendung konnte nicht inseriert werden</string>
+    <string name="error_price_negative">Preis darf nicht negativ sein</string>
+    <string name="error_request_accept">Anfrage konnte nicht angenommen werden</string>
+    <string name="error_announcement_revoked">Insert konnte nicht zurückgezogen werden</string>
+
+    <!-- String deliverer navigation -->
+
+    <string name="text_subscribe_announcements">Fahrt einstellen</string>
+    <string name="text_subscriptions">Eingestellte Fahrten</string>
+    <string name="text_search_announcement">Lieferungen suchen</string>
+    <string name="text_start_shipment">Lieferung starten</string>
+    <string name="text_shipment_requests">Lieferungen in Anfrage</string>
+    <string name="text_deliverer_active_shipments">Lieferungen in Ausführung</string>
+    <string name="text_end_shipment">Lieferung abliefern</string>
+
+    <string name="text_switch_to_sender">Wechseln zu Sender</string>
+
+    <!-- String deliverer -->
+
+    <string name="text_until_size">Bis Größe:</string>
+    <string name="text_source_city">Abholort</string>
+    <string name="text_destination_city">Zielort</string>
+    <string name="text_radius">Suchradius </string>
+    <string name="text_own_location">Eigener Standort</string>
+    <string name="text_radius_unit">km</string>
+    <string name="text_status">Status</string>
+
+    <string name="text_send_request">Anfrage senden</string>
+    <string name="text_filter">Lieferungen filtern</string>
+
+    <string name="text_pickup_datetime">Abholzeitpunkt</string>
+    <string name="text_deliver_datetime">Lieferzeitpunkt</string>
+    <string name="text_time">Uhrzeit</string>
+    <string name="text_date">Datum</string>
+
+    <string name="text_subscribe">Fahrt einstellen</string>
+    <string name="text_scan">QR-Code scannen</string>
+
+    <string name="info_request_sent">Anfrage gesendet</string>
+    <string name="info_request_revoked">Anfrage zurückgezogen</string>
+    <string name="info_delivery_started">Abholung bestätigt</string>
+    <string name="info_delivery_ended">Ablieferung bestätigt</string>
+    <string name="error_request_sent">Anfrage konnte nicht gesendet werden</string>
+    <string name="error_request_revoked">Anfrage konnte nicht zurückgezogen werden</string>
+    <string name="error_delivery_started">Fehler - Code stimmt nicht überein</string>
+    <string name="error_delivery_ended">Ablieferung konnte nicht bestätigt werden</string>
+    <string name="error_min_source_or_dest">Abhol- oder Zielort müssen ausgewählt werden</string>
+
+    <string name="error_location_address">Standortadresse konnte nicht ermittelt werden</string>
+    <string name="error_source_address">Abholort nicht gefunden</string>
+    <string name="error_destination_address">Zielort nicht gefunden</string>
+
+    <string name="error_camera_permission">Kamerazugriff muss gestattet werden!</string>
+    
+    <!-- String subscription -->
+
+    <string name="text_from">Von:</string>
+    <string name="text_to">Nach:</string>
+    <string name="text_arrival">Ankunft:</string>
+    <string name="text_departure">Abfahrt:</string>
+
+    <string name="text_subscription_detail">Fahrt-Details</string>
+    <string name="info_subscription_sent">Fahrt eingestellt</string>
+    <string name="info_subscription_revoked">Fahrt zurückgezogen</string>
+    <string name="error_subscription_sent">Fahrt konnte nicht eingestellt werden</string>
+    <string name="error_subscription_revoked">Fahrt konnte nicht zurückgezogen werden</string>
+
+    <!-- String rating -->
+
+    <string name="title_rate_dialog">Sendung bewerten</string>
+    <string name="message_rate_dialog0">Bereits bezahlt?</string>
+    <string name="message_rate_dialog1">Sendung mit</string>
+    <string name="message_rate_dialog2">Sternen bewerten?</string>
+    <string name="info_shipment_rated">Sendung bewertet</string>
+    <string name="error_shipment_rated">Sendung konnte nicht bewertet werden</string>
+
+    <!-- String enums -->
+    <string name="PASSPORT">Pass</string>
+    <string name="ID">Ausweis</string>
+    <string name="DRIVERLICENSE">Führerschein</string>
+
+    <string name="BANKTRANSFER">Überweisung</string>
+    <string name="PAYPAL">Paypal</string>
+
+    <string name="SENDER">Sender</string>
+    <string name="DELIVERER">Bote</string>
+    <string name="ADMIN">Administrator</string>
+    <string name="NOACTIVE">Gesperrt</string>
+
+    <string name="ANNOUNCED">Inseriert</string>
+    <string name="PENDING">Wartend</string>
+    <string name="ACTIVE">Unterwegs</string>
+    <string name="DELIVERED">Geliefert</string>
+    <string name="PAIDANDSENDERRATED">Bezahlt</string>
+    <string name="DELIVERERRATED">Bewertet</string>
+
+
+    <string name="text_reqeust">Lieferanfrage</string>
+    <string name="text_reqeust_to">zu</string>
+
+    <string name="NewRequest">erhalten</string>
+    <string name="RequestAccepted">angenommen</string>
+    <string name="RequestDeclined">abgelehnt</string>
+
+
+    <string name="text_notification_shipment">Sendungsstatus aktualisiert</string>
+    <string name="text_shipment">Sendung</string>
+
+    <string name="ShipmentPickedUp">abgeholt</string>
+    <string name="ShipmentDelivered">abgeliefert</string>
+    <string name="ShipmentSenderRated">bezahlt und bewertet</string>
+    <string name="ShipmentDelivererRated">bewertet</string>
+
+
+    <string name="FittingAnnouncement">Sendungsanfrage zu Fahrt gefunden</string>
+    <string name="Test">Testnachricht erhalten</string>
+
+</resources>

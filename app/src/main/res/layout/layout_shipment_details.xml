@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vertical_line_spacing"
+        android:text="@string/text_shipment_details"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="32dp">
+
+        <TextView
+            android:id="@+id/text_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="@dimen/vertical_line_spacing"
+            android:text="@string/text_description" />
+
+        <TextView
+            android:id="@+id/detail_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="TextView" />
+
+        <RelativeLayout
+            android:id="@+id/layout_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_description"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/detail_text_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="@dimen/vertical_line_spacing"
+                android:text="@string/text_status" />
+
+            <TextView
+                android:id="@+id/detail_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:maxLines="1"
+                android:text="TextView" />
+        </RelativeLayout>
+
+        <org.goods2go.android.ui.view.ShipmentSizeView
+            android:id="@+id/detail_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_state"
+            android:layout_marginBottom="@dimen/vertical_line_spacing" />
+
+        <TextView
+            android:id="@+id/detail_text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/detail_size"
+            android:text="@string/text_price" />
+
+        <TextView
+            android:id="@+id/detail_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/detail_size"
+            android:text="TextView" />
+
+        <RelativeLayout
+            android:id="@+id/layout_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_text_price"
+            android:layout_marginTop="@dimen/vertical_line_spacing"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/detail_text_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_sender" />
+
+            <TextView
+                android:id="@+id/detail_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_toLeftOf="@id/detail_rating_user"
+                android:text="TextView" />
+
+            <RatingBar
+                android:id="@+id/detail_rating_user"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/detail_user"
+                android:layout_marginLeft="2dp"
+                android:numStars="5"
+                android:rating="1.5"
+                android:stepSize="1" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

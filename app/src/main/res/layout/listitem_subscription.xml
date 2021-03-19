@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical">
+
+    <org.goods2go.android.ui.view.AddressView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:descriptor_bold="true"
+        app:descriptor="@string/text_from"/>
+
+    <org.goods2go.android.ui.view.AddressView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/from"
+        app:descriptor_bold="true"
+        app:descriptor="@string/text_to"/>
+
+    <TextView
+        android:id="@+id/departure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/arrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/to"
+        android:layout_alignBottom="@+id/to"
+        android:layout_alignStart="@+id/departure"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/text_departure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/text_arrival"
+        android:layout_marginEnd="4dp"
+        android:text="@string/text_departure"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_arrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/arrival"
+        android:layout_alignBottom="@+id/arrival"
+        android:layout_marginEnd="4dp"
+        android:layout_toStartOf="@+id/arrival"
+        android:text="@string/text_arrival"
+        android:textStyle="bold" />
+</RelativeLayout>

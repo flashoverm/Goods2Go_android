@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.goods2go.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--
+     The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+     Google Maps Android API v2, but you must specify either coarse or fine
+     location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--Required for QR scan-->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!--For starting service after boot-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- For ??? -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".Goods2GoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/text_goods2go"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:label="@string/text_goods2go"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.RegistrationActivity"
+            android:label="@string/text_sign_up"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.AccountAdministrationActivity"
+            android:label="@string/text_account_administration"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.RoleChooseActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.SenderActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.DelivererActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name=".notification.NotificationService"
+            android:enabled="true"/>
+
+        <receiver android:name=".notification.StartServiceAfterBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCnrwzfpzdp5av5VDxRvif3kfm0gEyLVz4" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

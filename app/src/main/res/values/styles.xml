@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/MyButton</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="alertDialogTheme">@style/MyDialogTheme</item>
+        <item name="android:alertDialogTheme">@style/MyDialogTheme</item>
+        <item name="dialogTheme">@style/MyDialogTheme</item>
+        <item name="android:dialogTheme">@style/MyDialogTheme</item>
+        <item name="android:timePickerDialogTheme">@style/MyDialogTheme</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/background_gradient</item>
+    </style>
+
+    <style name="MyButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/grey</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+</resources>
